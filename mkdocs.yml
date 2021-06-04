@@ -1,9 +1,6 @@
 site_name: ziBot Documentation
 
-theme:
-  name: material
-  features:
-    - navigation.tabs
+theme: readthedocs
 
 markdown_extensions:
   - admonition
