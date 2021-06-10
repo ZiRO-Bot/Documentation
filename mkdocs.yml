@@ -1,8 +1,0 @@
-site_name: ziBot Documentation
-
-theme: readthedocs
-
-markdown_extensions:
-  - admonition
-  - attr_list
-  - def_list
