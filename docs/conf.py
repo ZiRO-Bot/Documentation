@@ -18,3 +18,12 @@ html_theme_options = {
 extensions = ['myst_parser']
 
 source_suffix = {'.md': 'markdown'}
+
+# These folders are copied to the documentation's HTML output
+html_static_path = ['static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'base.css',
+]
