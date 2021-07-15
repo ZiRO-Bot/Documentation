@@ -26,4 +26,5 @@ html_static_path = ['static']
 # or fully qualified paths (eg. https://...)
 html_css_files = [
     'base.css',
+    'iosevka/iosevka.css',
 ]
