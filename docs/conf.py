@@ -2,6 +2,17 @@
 
 html_theme = "furo"
 
+html_theme_options = {
+    "light_css_variables": {
+        "color-brand-primary": "#3DB4FF",
+        "color-brand-content": "#3DB4FF",
+    },
+    "dark_css_variables": {
+        "color-brand-primary": "#3DB4FF",
+        "color-brand-content": "#3DB4FF",
+    },
+}
+
 extensions = ['myst_parser']
 
 source_suffix = {'.md': 'markdown'}
