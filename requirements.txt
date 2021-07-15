@@ -1,2 +1,2 @@
-myst-parser == 0.14.0
+myst-parser == 0.15.1
 furo == 2021.7.5b38
