@@ -1,6 +1,15 @@
 # Configuration file for the Sphinx documentation builder.
 
+# -- General configuration ---------------------------------------------------
+
+extensions = ['myst_parser']
+
+source_suffix = {'.md': 'markdown'}
+
+# -- Options for HTML output -------------------------------------------------
+
 html_theme = "furo"
+html_title = "Z3R0"
 
 html_theme_options = {
     "light_css_variables": {
@@ -14,10 +23,6 @@ html_theme_options = {
         "font-stack--monospace": "Iosevka Web, monospace",
     },
 }
-
-extensions = ['myst_parser']
-
-source_suffix = {'.md': 'markdown'}
 
 # These folders are copied to the documentation's HTML output
 html_static_path = ['static']
