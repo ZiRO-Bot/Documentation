@@ -1,5 +1,11 @@
 # Configuration file for the Sphinx documentation builder.
 
+# -- Project information -----------------------------------------------------
+
+project = "Z3R0"
+copyright = "2020, Ahmad Ansori Palembani"
+author = "Ahmad Ansori Palembani"
+
 # -- General configuration ---------------------------------------------------
 
 extensions = ['myst_parser']
